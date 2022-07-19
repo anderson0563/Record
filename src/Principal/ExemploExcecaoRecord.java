@@ -7,7 +7,8 @@ record Rectangle(double length, double width) { public Rectangle(double length, 
                         width)); }
     if(1==1) System.out.println("Teste");
     this.length = length;
-    this.width = width; }
+    this.width = width;
+    }
 }
 
 public class ExemploExcecaoRecord {
