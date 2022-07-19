@@ -5,6 +5,7 @@ record Rectangle(double length, double width) { public Rectangle(double length, 
         throw new java.lang.IllegalArgumentException(
                 String.format("Invalid dimensions: %f, %f", length,
                         width)); }
+    if(1==1) System.out.println("Teste");
     this.length = length;
     this.width = width; }
 }
