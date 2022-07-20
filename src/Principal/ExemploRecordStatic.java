@@ -16,7 +16,6 @@ record RectangleStatic(double length, double width) {
 
 public class ExemploRecordStatic {
     public static void main(String[] args) {
-        RectangleStatic r = new RectangleStatic(10, 10);
-
+        System.out.println(RectangleStatic.goldenRatio);
     }
 }
